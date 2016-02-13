@@ -22,3 +22,19 @@ require 'pry'
 
 
 # Call the function 
+
+def captain_obvious (name, what_you_love)
+
+	puts ("My name is #{name} and I love #{what_you_love}!")
+
+end
+
+puts ("What is your name?")
+
+user_name = gets.strip
+
+puts ("What do you love?")
+
+user_loves = gets.strip
+
+captain_obvious(user_name, user_loves)
